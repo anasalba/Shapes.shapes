@@ -5,9 +5,17 @@
     <use id="217c4745-eb99-4825-9858-46b512222960" name="Shapes" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
-  <imports />
+  <imports>
+    <import index="v8e0" ref="r:2b2d76bf-e4cf-4f7c-a6f1-445b3be985a0(Shapes.colors)" implicit="true" />
+  </imports>
   <registry>
     <language id="217c4745-eb99-4825-9858-46b512222960" name="Shapes">
+      <concept id="7380875995644441902" name="Shapes.structure.ColorReference" flags="ng" index="2HXxqM">
+        <reference id="7380875995644441903" name="target" index="2HXxqN" />
+      </concept>
+      <concept id="7380875995644251705" name="Shapes.structure.Shape" flags="ng" index="2HYQQ_">
+        <child id="7380875995644466342" name="color" index="2HXFsU" />
+      </concept>
       <concept id="7380875995644273691" name="Shapes.structure.Canvas" flags="ng" index="2HYSu7">
         <child id="7380875995644273692" name="shapes" index="2HYSu0" />
       </concept>
@@ -34,11 +42,17 @@
       <property role="2HYSue" value="10" />
       <property role="2HYSu8" value="23" />
       <property role="2HYSub" value="23456789" />
+      <node concept="2HXxqM" id="6pI8TNbAhOR" role="2HXFsU">
+        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQg" resolve="black" />
+      </node>
     </node>
     <node concept="2HYSuh" id="6pI8TNb_sQp" role="2HYSu0">
       <property role="2HYSui" value="234" />
       <property role="2HYSuj" value="123123" />
       <property role="2HYSuc" value="235346345" />
+      <node concept="2HXxqM" id="6pI8TNbAhOT" role="2HXFsU">
+        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQh" resolve="blue" />
+      </node>
     </node>
   </node>
 </model>

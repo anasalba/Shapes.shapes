@@ -48,6 +48,13 @@
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="Shape" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6pI8TNbA9iA" role="1TKVEi">
+      <property role="IQ2ns" value="7380875995644466342" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6pI8TNbA3kI" resolve="ColorReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6pI8TNb_qgd">
     <property role="EcuMT" value="7380875995644273677" />

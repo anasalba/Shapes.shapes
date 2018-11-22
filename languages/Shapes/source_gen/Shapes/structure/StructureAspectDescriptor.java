@@ -97,6 +97,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, true, false);
     b.origin("r:cccbfb20-03c2-4e5c-9c69-c8ba7eda9862(Shapes.structure)/7380875995644251705");
     b.version(2);
+    b.aggregate("color", 0x666e239ccb9894a6L).target(0x217c4745eb994825L, 0x985846b512222960L, 0x666e239ccb98352eL).optional(false).ordered(true).multiple(false).origin("7380875995644466342").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSquare() {
