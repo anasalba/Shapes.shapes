@@ -39,19 +39,27 @@
   <node concept="2HYSu7" id="6pI8TNb_sBT">
     <property role="TrG5h" value="MyDrawing" />
     <node concept="2HYSud" id="6pI8TNb_sQk" role="2HYSu0">
-      <property role="2HYSue" value="10" />
-      <property role="2HYSu8" value="23" />
-      <property role="2HYSub" value="23456789" />
+      <property role="2HYSue" value="100" />
+      <property role="2HYSu8" value="100" />
+      <property role="2HYSub" value="100" />
       <node concept="2HXxqM" id="6pI8TNbAhOR" role="2HXFsU">
-        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQg" resolve="black" />
+        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQg" resolve="BLACK" />
       </node>
     </node>
     <node concept="2HYSuh" id="6pI8TNb_sQp" role="2HYSu0">
-      <property role="2HYSui" value="234" />
-      <property role="2HYSuj" value="123123" />
-      <property role="2HYSuc" value="235346345" />
+      <property role="2HYSui" value="350" />
+      <property role="2HYSuj" value="350" />
+      <property role="2HYSuc" value="100" />
       <node concept="2HXxqM" id="6pI8TNbAhOT" role="2HXFsU">
-        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQh" resolve="blue" />
+        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQh" resolve="BLUE" />
+      </node>
+    </node>
+    <node concept="2HYSuh" id="2SUnaiSy91U" role="2HYSu0">
+      <property role="2HYSui" value="300" />
+      <property role="2HYSuj" value="300" />
+      <property role="2HYSuc" value="150" />
+      <node concept="2HXxqM" id="2SUnaiSy93t" role="2HXFsU">
+        <ref role="2HXxqN" to="v8e0:6pI8TNb_XQi" resolve="RED" />
       </node>
     </node>
   </node>
